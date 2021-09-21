@@ -1,0 +1,50 @@
+:root{
+    --primary-color: #d1bbb7;
+    --general-color: #0d6777;
+    --secondary-color: rgb(71, 2, 2);
+}
+
+.images{
+    width: 50px;
+    height: 50px;
+}
+
+body{
+    text-align: center;
+    display: block;
+    background-color: var(--general-color);
+    color: var(--secondary-color)
+}
+h1{ 
+    font-size: 2.5rem;
+}
+
+input,label{
+    display: block;
+    font-weight: bolder;
+    margin: 0 auto;
+    font-size:larger;
+    padding: 0.3rem;
+    border-width: medium;
+    border-color: var(--secondary-color);
+}
+
+.list{
+    text-align: center;
+    color: black;
+    display: inline;
+    list-style: no;
+}
+button{
+    padding: 0.7rem;
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    border-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+#output{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: var(--secondary-color)
+}
